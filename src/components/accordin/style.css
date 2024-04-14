@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 0.5s;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wrapper button{
+  padding: 10px 20px ;
+  background-color:rgb(36, 35, 35);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-shadow: 1px 1px 5px rgba(75, 75, 75, 0.89);
+  transition: all ease-in 0.3s;
+  border-radius: 5px;
+}
+button:hover{
+   background-color: sandybrown;
+   color: black;
+}
+.accordian {
+  width: 800px;
+}
+.item {
+  background: rgb(36, 35, 35);
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(75, 75, 75, 0.89);
+}
+
+.title {
+  color: sandybrown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.content {
+  color: white;
+ 
+  height: auto;
+}
